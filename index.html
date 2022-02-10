@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>E-commerce Screens</title>
+        <link
+            rel="stylesheet"
+            href="https://prestoui.netlify.app/css/components/index.css"
+        />
+        <link rel="stylesheet" href="./styles/base.css" />
+        <link rel="stylesheet" href="./styles/home.css" />
+        <link rel="stylesheet" href="./styles/header.css" />
+    </head>
+    <body>
+        <header>
+            <div class="flex-row">
+                <img
+                    class="nav-icon"
+                    src="./assets/icons/menu-open.svg"
+                    alt="menu open"
+                />
+                <a href="/index.html"><h1 class="logo">Logo</h1></a>
+            </div>
+            <div class="header-middle">
+                <input type="text" class="search-input" />
+                <img
+                    class="search-icon"
+                    src="./assets/icons/search.svg"
+                    alt="search icon"
+                />
+            </div>
+            <div class="header-right">
+                <a href="/pages/login/login.html"
+                    ><button class="btn btn-secondary">Log In</button></a
+                >
+                <a href="./pages/wishlist/wishlist.html"
+                    ><button class="btn btn-icon">
+                        <img
+                            src="./assets/icons/heart-regular.svg"
+                            alt="heart"
+                        /></button
+                ></a>
+                <a href="./pages/cart/cart.html"
+                    ><button class="btn btn-icon">
+                        <img src="./assets/icons/cart.svg" alt="cart" /></button
+                ></a>
+            </div>
+        </header>
+        <section class="category-container">
+            <div class="category bg-res">
+                <h3>Men</h3>
+            </div>
+            <div class="category bg-res">
+                <h3>Woman</h3>
+            </div>
+            <div class="category bg-res">
+                <h3>Kids</h3>
+            </div>
+            <div class="category bg-res">
+                <h3>All</h3>
+            </div>
+        </section>
+        <section class="flex-row flex-center">
+            <div class="main-banner bg-res flex-col flex-center">
+                <h2>BIG INDIAN SALE</h2>
+                <p>upto <span class="offer">60% Off</span> on all clothings</p>
+                <a href="./pages/products/products.html"
+                    ><button class="btn btn-primary">Shop Now</button></a
+                >
+            </div>
+        </section>
+        <section class="flex-col flex-center">
+            <h3 class="section-head">NEW ARRIVALS</h3>
+            <div class="flex-row flex-center">
+                <div class="new-arrival">
+                    <div class="cover">
+                        <img
+                            class="image-res"
+                            src="./assets/images/cover.jpg"
+                            alt="cover"
+                        />
+                    </div>
+                    <div class="content">
+                        <h4>Classic Hoodie</h4>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Accusamus
+                        </p>
+                    </div>
+                </div>
+                <div class="new-arrival">
+                    <div class="cover">
+                        <img
+                            class="image-res"
+                            src="./assets/images/cover.jpg"
+                            alt=""
+                        />
+                    </div>
+                    <div class="content">
+                        <h4>Classic Hoodie</h4>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Accusamus
+                        </p>
+                    </div>
+                </div>
+                <div class="new-arrival">
+                    <div class="cover">
+                        <img
+                            class="image-res"
+                            src="./assets/images/cover.jpg"
+                            alt=""
+                        />
+                    </div>
+                    <div class="content">
+                        <h4>Classic Hoodie</h4>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Accusamus
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="flex-col flex-center">
+            <h5>Made with Hands by Arjun</h5>
+            <p>Copyrigth @ ArjunDev | 2022</p>
+        </footer>
+    </body>
+</html>
