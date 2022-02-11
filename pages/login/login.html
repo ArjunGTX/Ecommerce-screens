@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Log in</title>
+        <link
+            rel="stylesheet"
+            href="https://prestoui.netlify.app/css/components/index.css"
+        />
+        <link rel="stylesheet" href="../../styles/base.css" />
+        <link rel="stylesheet" href="../../styles/header.css" />
+        <link rel="stylesheet" href="../../styles/auth.css" />
+    </head>
+    <body class="flex-row flex-center">
+        <header>
+            <div class="flex-row">
+                <img
+                    class="nav-icon"
+                    src="../../assets/icons/menu-open.svg"
+                    alt="menu open"
+                />
+                <a href="../../index.html"><h1 class="logo">Logo</h1></a>
+            </div>
+            <div class="header-middle">
+                <input type="text" class="search-input" />
+                <img
+                    class="search-icon"
+                    src="../../assets/icons/search.svg"
+                    alt="search icon"
+                />
+            </div>
+            <div class="header-right">
+                <a href="../../pages/wishlist/wishlist.html"
+                    ><button class="btn btn-icon">
+                        <img
+                            src="../../assets/icons/heart-regular.svg"
+                            alt="heart"
+                        /></button
+                ></a>
+                <a href="../../pages/cart/cart.html"
+                    ><button class="btn btn-icon">
+                        <img
+                            src="../../assets/icons/cart.svg"
+                            alt="cart"
+                        /></button
+                ></a>
+            </div>
+        </header>
+        <div class="auth-form flex-col flex-center">
+            <h3>Log In</h3>
+            <input type="text" class="input" placeholder="Enter your Email" />
+            <input type="password" class="input" placeholder="Enter Password" />
+            <div class="flex-row flex-center">
+                <label for="terms">
+                    <input type="checkbox" id="terms" />Remember Me
+                </label>
+                <button class="btn btn-link btn-blue">Forgot Password</button>
+            </div>
+            <button class="btn btn-info btn-block">Log In</button>
+            <button class="btn btn-link btn-block">
+                <a href="../../pages/signup/signup.html">Create New Account</a>
+            </button>
+        </div>
+    </body>
+</html>
