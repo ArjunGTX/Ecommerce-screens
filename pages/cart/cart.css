@@ -29,18 +29,6 @@
 .price {
     margin: var(--sp-sm) 0;
 }
-.price-new {
-    font-weight: 700;
-    font-size: 1.3rem;
-}
-.price-old {
-    color: var(--font-70);
-    text-decoration: line-through;
-}
-.offer {
-    color: var(--primary-100);
-    font-size: 1.1rem;
-}
 .quantity .btn-link {
     margin: var(--sp-lg);
     color: var(--font-90);
@@ -73,10 +61,6 @@
 .checkout .details {
     padding: var(--sp-lg) 0;
     font-size: 1.2rem;
-}
-hr {
-    color: var(--border-white);
-    width: 100%;
 }
 .note {
     text-align: center;
