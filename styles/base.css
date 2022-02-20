@@ -5,6 +5,9 @@
     font-family: "Nunito", sans-serif;
     font-weight: 600;
 }
+*:focus {
+    outline: none;
+}
 :root {
     font-size: 10px;
 

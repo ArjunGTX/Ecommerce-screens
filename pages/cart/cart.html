@@ -16,12 +16,7 @@
     </head>
     <body>
         <header>
-            <div class="flex-row">
-                <img
-                    class="nav-icon"
-                    src="../../assets/icons/menu-open.svg"
-                    alt="menu open"
-                />
+            <div class="flex-row flex-center">
                 <a href="../../index.html"><h1 class="logo">Logo</h1></a>
             </div>
             <div class="header-middle">
@@ -33,41 +28,44 @@
                 />
             </div>
             <div class="header-right">
-                <a href="../../pages/login/login.html"
+                <a href="../login/login.html"
                     ><button class="btn btn-secondary">Log In</button></a
                 >
-                <a href="../../pages/wishlist/wishlist.html"
-                    ><button class="btn btn-icon">
-                        <img
-                            src="../../assets/icons/heart-regular.svg"
-                            alt="heart"
-                        /></button
-                ></a>
-                <a href="../../pages/cart/cart.html"
+                <a href="../cart/cart.html"
                     ><button class="btn btn-icon">
                         <img
                             src="../../assets/icons/cart.svg"
                             alt="cart"
                         /></button
                 ></a>
+                <a href="../wishlist/wishlist.html"
+                    ><button class="btn btn-icon">
+                        <img
+                            src="../../assets/icons/heart-regular.svg"
+                            alt="heart"
+                        /></button
+                ></a>
             </div>
         </header>
-        <h3 class="page-title">MY CART(1)</h3>
+        <h3 class="page-title">MY CART(2)</h3>
         <div class="cart-container">
             <div class="items">
-                <div class="cart-item">
-                    <div class="cover">
+                <div class="card card-horizontal">
+                    <button class="btn btn-icon">
                         <img
-                            class="image-res"
-                            src="../../assets/images/cover.jpg"
-                            alt=""
+                            src="../../assets/icons/heart-regular.svg"
+                            alt="heart"
                         />
+                    </button>
+                    <div class="card-cover">
+                        <img src="../../assets/images/cover.jpg" alt="cover" />
                     </div>
-                    <div class="content">
-                        <h4>Black Shirt Medium</h4>
-                        <div class="price">
-                            <span class="price-new">Rs.1200</span>
-                            <span class="price-old">Rs.2400</span>
+                    <div class="card-content">
+                        <div class="card-title-container">
+                            <h5 class="card-title">Black Shirt for men</h5>
+                            <p class="card-subtitle price">Custom fit</p>
+                            <span class="price-new">₹1200</span>
+                            <span class="price-old">₹2400</span>
                             <span class="offer">(50% OFF)</span>
                         </div>
                         <div class="quantity flex-row flex-center mx-auto">
@@ -75,24 +73,29 @@
                             <span>5</span>
                             <button class="btn btn-link">+</button>
                         </div>
-                        <button class="btn btn-secondary">
-                            Move to Wishlist
-                        </button>
+                        <div class="card-bottom">
+                            <button class="btn btn-secondary">
+                                Add to Wishlist
+                            </button>
+                        </div>
                     </div>
                 </div>
-                <div class="cart-item">
-                    <div class="cover">
+                <div class="card card-horizontal">
+                    <button class="btn btn-icon">
                         <img
-                            class="image-res"
-                            src="../../assets/images/cover.jpg"
-                            alt=""
+                            src="../../assets/icons/heart-regular.svg"
+                            alt="heart"
                         />
+                    </button>
+                    <div class="card-cover">
+                        <img src="../../assets/images/cover.jpg" alt="cover" />
                     </div>
-                    <div class="content">
-                        <h4>Black Shirt Medium</h4>
-                        <div class="price">
-                            <span class="price-new">Rs.1200</span>
-                            <span class="price-old">Rs.2400</span>
+                    <div class="card-content">
+                        <div class="card-title-container">
+                            <h5 class="card-title">Black Shirt for men</h5>
+                            <p class="card-subtitle price">Custom fit</p>
+                            <span class="price-new">₹1200</span>
+                            <span class="price-old">₹2400</span>
                             <span class="offer">(50% OFF)</span>
                         </div>
                         <div class="quantity flex-row flex-center mx-auto">
@@ -100,9 +103,11 @@
                             <span>5</span>
                             <button class="btn btn-link">+</button>
                         </div>
-                        <button class="btn btn-secondary">
-                            Move to Wishlist
-                        </button>
+                        <div class="card-bottom">
+                            <button class="btn btn-secondary">
+                                Add to Wishlist
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
