@@ -11,6 +11,11 @@
 .products {
     padding: var(--sp-xxl);
     overflow-y: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 30rem));
+}
+.card-cover {
+    height: 15rem;
 }
 .sidebar {
     padding: var(--sp-xxl);
@@ -65,8 +70,11 @@
 }
 
 @media screen and (min-width: 480px) {
-    .sidebar{
+    .sidebar {
         width: 50vw;
+    }
+    .products {
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 30rem));
     }
 }
 

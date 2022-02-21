@@ -45,18 +45,12 @@ header {
 }
 .header-right {
     display: flex;
+    align-items: center;
     margin-left: auto;
 }
 header .btn {
     min-width: fit-content;
     font-size: 1.2rem;
-}
-header .btn-icon {
-    background-color: inherit;
-    border-radius: 50%;
-    padding: var(--sp-sm);
-    transition: 250ms;
-    margin: var(--sp-md);
 }
 header .btn-icon:hover {
     background-color: var(--primary-hover);
